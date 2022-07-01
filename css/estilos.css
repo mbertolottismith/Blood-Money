@@ -1,0 +1,411 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    background-color: #006A08;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Bebas Neue', cursive;
+}
+header {
+    margin-top: 5%;
+    margin-right: 0%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    display: flex;
+   
+}
+.titulos{
+    padding-top: 1%;
+    width: 40%;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px solid black;   
+}
+nav ul li :hover {
+    color: white; 
+    font-size: 1.8rem;
+}
+nav ul {
+    margin-top: 12%; 
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Logo{
+    height: 100px;
+    width: 100px;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.principal{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.video {
+    height: 40%;
+    width: 70% 
+}
+.secundario{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.secundario div {
+    width: 33%;
+    text-align: center;
+    margin: 2%;
+}
+p {
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 2%;
+}
+ .secundario div a img {
+     width: 100%;
+     margin-bottom: 2rem;
+ }
+.secundario div li {
+   text-align: left;
+}
+
+.fotowalter{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 3%;
+}
+.Hank {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 3%;
+}
+.Saul {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 3%;
+}
+
+footer {
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 3%;
+    
+}
+footer h1 {
+    width: 18%;
+    align-content: center;
+}
+
+footer p { 
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    width: 20%; 
+    margin-top: 1%;
+}
+footer nav {
+    font-size: 1.2rem;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    clear: both;
+}
+footer nav ul {
+    margin-top: 0%;
+} 
+
+
+
+.temporadafoto {
+    width: 100%;
+}
+.serie {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.serie article {
+    width: 40%;
+    margin: 3%;
+}
+.infocapitulos {
+  width: 100%;
+  font-family: 'Inter', sans-serif;  
+}
+.sectionserie {
+    width: 100%;
+}
+
+h2 {
+    height: 31px;
+}
+.sectiongaleria {
+    width: 100%;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.galeria div img {
+    width: 100%;
+}
+.example-image {
+    height: 250px;
+    width: 400px;
+}
+.example-image-link {
+    display: inline-flex;
+}
+
+
+
+.sectionlogin {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sectionlogin article {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    background-color: black;
+    text-align: center;
+}
+h5{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 3%;
+}
+.controls {
+    width: 90%;
+    height: 10%;
+    margin: 3%; 
+}
+.buttons {
+    display: inline-block;
+    width: 20%;
+    height: 10%;
+    margin: 5%;
+}
+.sectionlogin article p a {
+    color: white;
+    margin-left: 7%;
+}
+
+.articlereproductor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.articlereproductor img {
+    width: 80%;
+}
+.personajesdestacados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titulopersonajesdestacados h4 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.personajesdestacados div {
+    width: 45%;
+    margin: 2%;
+}
+.personajesdestacados div img {
+    width: 100%;
+}
+.infopersonajes {
+    font-family: 'Inter', sans-serif;
+}
+.personajesdestacados h3 {
+    font-size: 2rem;
+}
+.icon {
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    body { 
+        margin: 0%;
+    }
+    
+    header {
+        position: sticky;
+        top: 0;
+        position: -webkit-sticky;
+        z-index: 10;
+        background-color: #006A08;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 3%;
+        padding-top: 3%;
+    }
+
+.titulos {
+    width: 70%;
+}    
+nav ul { display: none; }
+.icon { float: right; 
+         display: flex;}
+       
+ nav.responsive ul {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background: black;
+            position: fixed;
+            left: 0%;
+        }
+nav.responsive ul li a {
+    color: white;
+}
+
+.principal{
+        width: 100%;
+    }    
+.principal img{
+        width: 100%;
+        height: 100%;
+    }
+
+.secundario{
+        width: 100%;
+        margin-top: 5%;
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+.secundario div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.secundario div img {
+    width: 100%;
+}
+
+.temporadafoto{
+    width: 100%;
+}
+.infocapitulos {
+    width: 100%;
+}
+
+
+footer {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 6%;
+        margin-bottom: 3%;
+    }
+footer h1 {
+    width: 70%;
+    height: 55px;
+}
+footer p {
+    width: 60%;
+    margin: 0%;
+}
+    
+
+
+.serie {
+    width: 100%;
+}
+.serie article {
+    display: block;
+    width: 100%;
+}
+
+.sectiongaleria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sectiongaleria article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sectiongaleria article div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.example-image {
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+
+.sectionlogin {
+    width: 100%;
+    height:auto;
+    display: block;
+    flex-direction: column;
+    margin: 0%;
+}
+.sectionlogin article {
+    width: 100%;
+    margin: 0%;
+    height: 50%;
+}
+.h5 {
+    margin-top: 5%;
+}
+.buttons {
+    width: 20%;
+    height: 15%;
+    margin: 5%;
+}
+.articlereproductor img {
+    width: 100%;
+}
+.titulopersonajesdestacados h4 {
+    font-size: 2.2rem;
+}
+.personajesdestacados div {
+    width: 80%;
+}
+.personajesdestacados h3 {
+    font-size: 1.4em;
+}
+}
+    
